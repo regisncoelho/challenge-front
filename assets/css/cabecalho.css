@@ -1,5 +1,8 @@
 .cabecalho {
     display: flex;
+    margin: 32px;
+    padding-top: 12px;
+
 }
 
 .logo-page {
