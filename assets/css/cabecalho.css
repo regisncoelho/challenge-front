@@ -2,7 +2,8 @@
     display: flex;
     margin: 32px;
     padding-top: 12px;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-page {
@@ -23,13 +24,35 @@
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
-    opacity: 0.64; /* Firefox */
-  }
+    opacity: 0.64;
+}
   
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: white;
-  }
+    opacity: 0.64; 
+}
   
-  ::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder { /* Microsoft Edge */
     color: white;
-  }
+    opacity: 0.64; 
+    
+}
+
+.user-button {
+    display: flex;
+    align-items: center;
+    width: 106px;
+    height: 56px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.user-photo {
+    height: 36px;
+    width: 36px;
+}
+
+.user-name {
+    margin-left: 8px;
+    color: white;
+}
