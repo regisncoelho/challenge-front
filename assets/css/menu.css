@@ -1,0 +1,21 @@
+/* .sidebar { */
+    
+.sidebar-title {
+    margin: 32px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list>li {
+    margin: 0 0 16px 32px;
+    display: flex;
+    align-items: center;
+}
