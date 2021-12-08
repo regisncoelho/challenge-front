@@ -1,4 +1,7 @@
-/* .sidebar { */
+.sidebar {
+    display: inline-block;
+    width: 400px;
+}
     
 .sidebar-title {
     margin: 32px;
