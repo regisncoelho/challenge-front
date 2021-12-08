@@ -1,0 +1,32 @@
+.menu-item {
+    content: '';
+    width: 48px;
+    height: 48px;
+    background-color: rgba(80, 129, 251);
+    border-radius: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: none;
+    padding: 12px;
+    margin-right: 16px;
+}
+
+.normal-item {
+    opacity: 0.56;
+}
+
+.normal-item>div {
+    background-color: rgba(80, 129, 251, 0.16);
+}
+
+.hover-item {
+    opacity: 0.72;
+}
+
+.hover-item>div {
+    background: rgba(80, 129, 251, 0.64);
+}
+
+.pressed-item {
+    opacity: 1.0;
+}
