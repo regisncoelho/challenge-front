@@ -1,0 +1,15 @@
+.main-part {
+    display: inline-block;
+    width: 70%;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-bar {
+    display: flex;
+    flex-direction: column;
+}
