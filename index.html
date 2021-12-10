@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/menu-item.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/input.css">
 
 </head>
 
@@ -31,7 +33,7 @@
         </figure>
     </header>
     <nav class="sidebar">
-        <h2 class="sidebar-title">Menu</h2>
+        <h2 class="title-01">Menu</h2>
         <ul class="menu-list">
             <li id="editor" class="pressed-item">
                 <div class="menu-item">
@@ -53,6 +55,27 @@
             </li>
         </ul>
     </nav>
+    <main class="main-part">
+        <div class="panel">
+            <div class="central-panel">
+                <div class="color-bg">
+                <textarea name="editor-text" id="editor-text" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Visualizar com highlight</button>
+            </div>
+            <div class="project-bar">
+                <label for="project-title" class="title-01">Seu projeto</label>
+                <input class="input-text" type="text" name="project-title" id="project-title" placeholder="Nome do seu projeto">
+                <textarea class="input-text" name="description-project" id="description-project" cols="30" rows="4" placeholder="Descrição do seu projeto"></textarea>
+                <label class="title-01" for="select-language">Personalização</label>
+                <select name="select-language" id="select-language">
+                    <option value="js">JavaScript</option>
+                </select>
+                <input type="color" name="" id="">
+                <button type="submit">Salvar projeto</button>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
