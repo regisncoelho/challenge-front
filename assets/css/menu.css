@@ -2,13 +2,9 @@
     display: inline-block;
     width: 400px;
 }
-    
-.sidebar-title {
+
+.sidebar>h2 {
     margin: 32px;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.4em;
-    text-transform: uppercase
 }
 
 .menu-list {
