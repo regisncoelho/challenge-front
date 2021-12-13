@@ -1,0 +1,24 @@
+.save-project {
+    width: 272px;
+    height: 56px;
+    background: var(--blue-300);
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+    color: #051D3B;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.show-highlight {
+    position: absolute;
+    width: 752px;
+    height: 56px;
+    background: rgba(80, 129, 251, 0.08);
+    border-radius: 8px;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    margin-top: 32px;
+}
