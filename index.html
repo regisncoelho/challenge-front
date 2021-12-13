@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="assets/css/menu-item.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/input.css">
+    <link rel="stylesheet" href="assets/css/select.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
 
 </head>
 
@@ -61,18 +63,18 @@
                 <div class="color-bg">
                 <textarea name="editor-text" id="editor-text" cols="30" rows="10"></textarea>
                 </div>
-                <button type="submit">Visualizar com highlight</button>
+                <button class="show-highlight" type="submit">Visualizar com highlight</button>
             </div>
             <div class="project-bar">
                 <label for="project-title" class="title-01">Seu projeto</label>
                 <input class="input-text" type="text" name="project-title" id="project-title" placeholder="Nome do seu projeto">
                 <textarea class="input-text" name="description-project" id="description-project" cols="30" rows="4" placeholder="Descrição do seu projeto"></textarea>
                 <label class="title-01" for="select-language">Personalização</label>
-                <select name="select-language" id="select-language">
+                <select class="select-01 input-text" name="select-language" id="select-language">
                     <option value="js">JavaScript</option>
                 </select>
-                <input type="color" name="" id="">
-                <button type="submit">Salvar projeto</button>
+                <input class="input-color" type="color" name="" id="" value="#6BD1FF">
+                <button class="save-project" type="submit">Salvar projeto</button>
             </div>
         </div>
     </main>
