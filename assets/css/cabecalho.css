@@ -1,18 +1,16 @@
 .cabecalho {
     display: flex;
     margin: 32px;
-    padding-top: 12px;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo-page {
-    width: 145px;
-    height: 34px;
+    width: var(--w-sidebar);
 }
 
 .input-search {
-    width: 752px;
+    width: var(--w-central);
     height: 56px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.16);
@@ -42,10 +40,11 @@
 
 .user-button {
     display: flex;
-    align-items: center;
-    width: 106px;
+    align-items:center;
+    justify-content: flex-end;
+    width: var(--w-panel);
     height: 56px;
-    padding: 12px;
+    /* padding: 12px; */
     box-sizing: border-box;
 }
 

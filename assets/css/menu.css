@@ -1,10 +1,10 @@
 .sidebar {
     display: inline-block;
-    width: 400px;
+    width: var(--w-sidebar);
 }
 
 .sidebar>h2 {
-    margin: 32px;
+    margin-bottom: 32px;
 }
 
 .menu-list {
@@ -14,7 +14,7 @@
 }
 
 .menu-list>li {
-    margin: 0 0 16px 32px;
+    margin-bottom: 16px;  
     display: flex;
     align-items: center;
 }

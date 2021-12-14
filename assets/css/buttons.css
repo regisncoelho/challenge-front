@@ -1,5 +1,5 @@
 .save-project {
-    width: 272px;
+    width: var(--w-panel);
     height: 56px;
     background: var(--blue-300);
     border-radius: 8px;
@@ -11,8 +11,7 @@
 }
 
 .show-highlight {
-    position: absolute;
-    width: 752px;
+    width: var(--w-central);
     height: 56px;
     background: rgba(80, 129, 251, 0.08);
     border-radius: 8px;

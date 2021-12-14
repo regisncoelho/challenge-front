@@ -5,6 +5,9 @@
     --blue-100: #96B9FD;
     --dark-gray: #141414;
     --white: #FFFFFF;
+    --w-panel: 25vw;
+    --w-central: 49vw;
+    --w-sidebar: 17vw;
 }
 
 body {
@@ -22,4 +25,8 @@ body {
     letter-spacing: 0.4em;
     text-transform: uppercase;
     font-weight: normal;
+}
+
+.invisible-bigscreen {
+    display: none;
 }
