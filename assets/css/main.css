@@ -1,15 +1,24 @@
-.main-part {
+/* .main-part {
     display: inline-block;
-    width: 70%;
-}
+    width: calc(var(--w-panel)+ var(--w-central) + 40px);
+} */
 
 .panel {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin: 32px;
+}
+
+.central-panel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .project-bar {
     display: flex;
     flex-direction: column;
+    width: var(--w-panel);
 }

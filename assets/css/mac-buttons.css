@@ -1,0 +1,24 @@
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 52px;
+    height: 12px;
+}
+
+.buttons-wrapper>div{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.color-01 {
+    background: #FF5F56;
+}
+
+.color-02 {
+    background: #FFBD2E;
+}
+
+.color-03 {
+    background: #27C93F;
+}

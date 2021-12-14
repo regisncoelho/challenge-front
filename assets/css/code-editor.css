@@ -1,0 +1,40 @@
+.color-bg {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: var(--w-central);
+    height: var(--w-panel);
+    background: #6BD1FF;
+    border-radius: 8px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.editor-wrapper {
+    width: calc(100%-64px);
+    height: calc(100%-64px);
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    padding: 16px;
+    background-color: var(--dark-gray);
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.editor-text {
+    resize: none;
+    overflow: auto;
+    background-color: var(--dark-gray);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    width: 100%;
+    height: calc(var(--w-panel) - 136px);
+    box-sizing: border-box;
+    margin-top: 24px;
+    color: inherit;
+    font-family: Roboto Mono;
+    font-size: 14px;
+    line-height: 18px;
+}
