@@ -1,0 +1,62 @@
+@media screen and (max-width: 1024px) { 
+    #user-button, #sidebar {
+        display: none;
+    }
+
+    #mobile-component {
+        display: flex;
+    }
+
+    #pesquisa {
+        width: 56vw;
+    }
+
+    #menu-mobile {
+        display: block;
+        width: 48px;
+        height: 48px;
+        padding: 12px;
+        box-sizing: border-box;
+        margin: 4px 0px 4px 8px;
+    }
+
+    #header-mobile {
+        margin: 16px;
+    }
+
+    #logo-page {
+        width: fit-content;
+        height: fit-content;
+        margin: 11px 0;
+        box-sizing: border-box;
+    }
+
+    #color-bg {
+        width: 92vw;
+        height: 47.6vw;
+    }
+
+    #editor-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    #editor-text {
+        height: calc(100% - 52px);
+    }
+
+    #show-highlight, #project-bar, #project-bar>* {
+        width: 100%;
+    }
+
+    #project-bar select, .personalizacao .input-color {
+        display: inline;
+        width: 48%;
+    }
+
+    .project-bar .personalizacao {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
