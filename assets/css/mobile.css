@@ -31,7 +31,7 @@
         margin: 16px;
     }
 
-    #color-bg {
+    .central-panel #color-bg {
         width: 91.5vw;
         height: 131.2vw;
     }
@@ -45,7 +45,12 @@
         height: calc(100% - 52px);
     }
 
-    #show-highlight, #project-bar, #project-bar>* {
+    #show-highlight, #project-bar, #project-bar>label, #project-bar>input, #project-bar>textarea, #project-bar>div, #project-bar .select-01, #project-bar .input-color {
         width: 100%;
+    }
+
+    #personalizacao {
+        display: flex;
+        flex-direction: column;
     }
 }
