@@ -22,3 +22,8 @@
     flex-direction: column;
     width: var(--w-panel);
 }
+
+.project-bar>div {
+    display: flex;
+    flex-direction: column;
+}

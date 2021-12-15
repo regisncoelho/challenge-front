@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/tablet.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/menu.css">
@@ -99,7 +100,8 @@ const res = f(seed)
 return res ? go(f, res[1], acc.concat([res[0]])) : acc
 }
 return go(f, seed, [])
-}</textarea>
+}
+</textarea>
                 </div>
             </div>
             <button class="show-highlight" type="submit" id="show-highlight">Visualizar com highlight</button>
@@ -111,10 +113,12 @@ return go(f, seed, [])
             <textarea class="input-text" name="description-project" id="description-project" cols="30" rows="4"
                 placeholder="Descrição do seu projeto"></textarea>
             <label class="title-01" for="select-language">Personalização</label>
-            <select class="select-01 input-text" name="select-language" id="select-language">
-                <option value="js">JavaScript</option>
-            </select>
-            <input class="input-color" type="color" name="" id="" value="#6BD1FF">
+            <div class="personalizacao" id="personalizacao" >
+                <select class="select-01 input-text" name="select-language" id="select-language">
+                    <option value="js">JavaScript</option>
+                </select>
+                <input class="input-color" type="color" name="" id="input-color" value="#6BD1FF">
+            </div>
             <button class="save-project" type="submit">Salvar projeto</button>
         </div>
     </main>
